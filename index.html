@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Food Ordering Portal</title>
 
-    <style>https://https://github.com/dhanushs2024c-sys/online-food-ordering-portal.git/edit/main/index.html
+    <title>Online Food Ordering Portal - Release v2</title>
+
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -73,6 +74,26 @@
             color: red;
         }
 
+        .thank-you {
+            background: #e8f5e9;
+            border: 2px solid #43a047;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .thank-you h2 {
+            color: #2e7d32;
+        }
+
+        .release {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
         footer {
             background: #333;
             color: white;
@@ -80,10 +101,18 @@
             padding: 15px;
             margin-top: 20px;
         }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+        }
     </style>
 </head>
 
 <body>
+
     <header>
         <h1>Online Food Ordering Portal</h1>
         <p>Fresh Food | Fast Delivery | Great Taste</p>
@@ -105,8 +134,8 @@
         <h2>Restaurant Details</h2>
         <p><b>Name:</b> Campus Food Corner</p>
         <p><b>Location:</b> Vellore</p>
-        <p><b>Opening Hours:</b> 9:00 AM – 10:00 PM</p>
-        <p><b>Delivery Time:</b> 25–40 minutes</p>
+        <p><b>Opening Hours:</b> 9:00 AM - 10:00 PM</p>
+        <p><b>Delivery Time:</b> 25-40 minutes</p>
     </div>
 
     <div class="container" id="categories">
@@ -118,6 +147,7 @@
         <h2>Our Menu</h2>
 
         <div class="menu">
+
             <div class="card">
                 <h3>Masala Dosa</h3>
                 <p>Category: South Indian</p>
@@ -159,6 +189,7 @@
                 <p class="price">₹150</p>
                 <p class="available">Availability: Available</p>
             </div>
+
         </div>
     </div>
 
@@ -171,14 +202,28 @@
         </ul>
     </div>
 
+    <!-- NEW FEATURE ADDED IN RELEASE V2 -->
+    <div class="thank-you">
+        <h2>Thank You for Choosing Us!</h2>
+        <p>Your delicious meal is just a few clicks away.</p>
+        <p>We appreciate every order from our customers.</p>
+        <p>Enjoy fresh food and fast delivery with Campus Food Corner!</p>
+    </div>
+
     <div class="container" id="contact">
         <h2>Contact Us</h2>
         <p>Email: foodcorner@example.com</p>
         <p>Phone: 9876543210</p>
     </div>
 
+    <div class="release">
+        <p>Online Food Ordering Portal | Release v2</p>
+        <p>New Feature: Customer Thank-You Message</p>
+    </div>
+
     <footer>
-        <p>Online Food Ordering Portal | Release v1</p>
+        <p>Fresh Food, Happy Customers!</p>
     </footer>
+
 </body>
 </html>
