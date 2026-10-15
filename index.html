@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering Portal</title>
+
+    <style>https://github.com/Abhinesh18G/online-food-ordering-portal/edit/main/index.html
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background: #e65100;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        .offer {
+            background: #ffcc80;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .card h3 {
+            color: #e65100;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #218838;
+        }
+
+        .available {
+            color: green;
+        }
+
+        .unavailable {
+            color: red;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Online Food Ordering Portal</h1>
+        <p>Fresh Food | Fast Delivery | Great Taste</p>
+    </header>
+
+    <nav>
+        <a href="#restaurant">Restaurant</a>
+        <a href="#categories">Categories</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="offer" id="offers">
+        Special Offer: Get 20% OFF on orders above ₹299!
+    </div>
+
+    <div class="container" id="restaurant">
+        <h2>Restaurant Details</h2>
+        <p><b>Name:</b> Campus Food Corner</p>
+        <p><b>Location:</b> Vellore</p>
+        <p><b>Opening Hours:</b> 9:00 AM – 10:00 PM</p>
+        <p><b>Delivery Time:</b> 25–40 minutes</p>
+    </div>
+
+    <div class="container" id="categories">
+        <h2>Food Categories</h2>
+        <p>South Indian | North Indian | Pizza | Burgers | Beverages</p>
+    </div>
+
+    <div class="container" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu">
+            <div class="card">
+                <h3>Masala Dosa</h3>
+                <p>Category: South Indian</p>
+                <p class="price">₹80</p>
+                <p class="available">Availability: Available</p>
+            </div>
+
+            <div class="card">
+                <h3>Veg Fried Rice</h3>
+                <p>Category: Chinese</p>
+                <p class="price">₹120</p>
+                <p class="available">Availability: Available</p>
+            </div>
+
+            <div class="card">
+                <h3>Paneer Pizza</h3>
+                <p>Category: Pizza</p>
+                <p class="price">₹199</p>
+                <p class="available">Availability: Available</p>
+            </div>
+
+            <div class="card">
+                <h3>Veg Burger</h3>
+                <p>Category: Burgers</p>
+                <p class="price">₹99</p>
+                <p class="unavailable">Availability: Currently Unavailable</p>
+            </div>
+
+            <div class="card">
+                <h3>Fresh Lime Juice</h3>
+                <p>Category: Beverages</p>
+                <p class="price">₹50</p>
+                <p class="available">Availability: Available</p>
+            </div>
+
+            <div class="card">
+                <h3>Veg Meals</h3>
+                <p>Category: Indian Meals</p>
+                <p class="price">₹150</p>
+                <p class="available">Availability: Available</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Promotional Offers</h2>
+        <ul>
+            <li>20% discount on orders above ₹299.</li>
+            <li>Free delivery on orders above ₹499.</li>
+            <li>Special student meal combos available.</li>
+        </ul>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: foodcorner@example.com</p>
+        <p>Phone: 9876543210</p>
+    </div>
+
+    <footer>
+        <p>Online Food Ordering Portal | Release v1</p>
+    </footer>
+</body>
+</html>
