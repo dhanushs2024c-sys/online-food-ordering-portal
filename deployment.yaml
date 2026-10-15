@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: food-portal
-          image: abhinesh18g/online-food-ordering-portal:v1
+          image: dhan01/online-food-ordering-portal:v1
           ports:
             - containerPort: 80
           readinessProbe:
